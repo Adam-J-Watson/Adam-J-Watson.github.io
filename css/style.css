@@ -156,13 +156,12 @@ a:hover {
   border: 0 solid #fff;
   border-top-width: 2px;
   justify-content: space-between;
-
 }
 
 .footer p{
   margin-top: 2rem;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Font Weight 400 */
