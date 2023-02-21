@@ -1,0 +1,235 @@
+/* Body Styling */
+
+* {
+  box-sizing: border-box;
+  background-color:  #121212;
+  color: #fff;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  max-width: 48rem;
+}
+
+/* Nav Bar */
+
+.navbar {
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  line-height: 1.75rem;
+}
+
+a {
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 800;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+/* Header Text */
+
+.header {
+  font-size: 3.75rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Wave Animation */
+
+.wave {
+  -webkit-animation-name: wave-animation;
+  animation-name: wave-animation;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@-webkit-keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+/* Sub Header */
+.subheader {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 4rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+/* Paragraphs */
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-top: .875rem;
+}
+
+/* Footer */
+.footer {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  border: 0 solid #fff;
+  border-top-width: 2px;
+  justify-content: space-between;
+
+}
+
+.footer p{
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif
+}
+
+/* Font Weight 400 */
+
+.w-400 {
+  font-weight: 400;
+}
+
+/* Font Weight 700 */
+
+.w-700 {
+  font-weight: 700;
+}
+
+/* Font Weight 800 */
+
+.w-800 {
+  font-weight: 800;
+}
+
+/* Opacity 50 */
+
+.opacity-50 {
+  opacity: .5;
+}
+
+/* Opacity 100 */
+
+.opacity-100 {
+  opacity: 1;
+}
+
+
+
+
+/* Dark Mode / Light Mode */
+/* Will implement at a later date. */
+/* In the mean time using styles that will be easy to transition (such as opacity vs color) */
+
+/* @media (prefers-color-theme: dark) {
+  .body {
+    --bg: #1e1e1e;
+  }
+  .header{
+    --h1: #fff;
+  }
+  
+.subheader {
+  --h2: #606060;
+}
+
+.footer {
+  --footer: #fff;
+}
+  }
+
+  @media (prefers-color-theme: light) {
+    .body {
+      --bg: #fff;
+    }
+    .header{
+      --h1: #1e1e1e;
+    }
+    
+  .subheader {
+    --h2: #606060;
+  }
+  
+  .footer {
+    --footer: #000000;
+  }
+    } */
