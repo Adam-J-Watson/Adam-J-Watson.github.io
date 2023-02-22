@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color:  #121212;
   color: #fff;
+  border: 0 solid #e5e7eb;
 }
 
 .body {
@@ -112,11 +113,39 @@ a:hover {
   margin-top: .875rem;
 }
 
+/* Blog Flex */
+.blog-f {
+  flex-direction: column;
+}
+
+/* Blog Container */
+.blog-c {
+  border-width: 2px;
+  border-radius: .75rem;
+  padding: 1.25rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+
+}
+
+/* Blog Page */
+.blog-p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Blog Description */
+.blog-d {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
 /* Footer */
 .footer {
   margin-top: 5rem;
   margin-bottom: 2.5rem;
-  border: 0 solid #fff;
   border-top-width: 2px;
   justify-content: space-between;
 }
@@ -159,6 +188,7 @@ a:hover {
 
 
 
+/* TO DO: */
 
 /* Dark Mode / Light Mode */
 /* Will implement at a later date. */
