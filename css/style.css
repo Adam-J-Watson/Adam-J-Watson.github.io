@@ -54,48 +54,11 @@ a:hover {
 /* Wave Animation */
 
 .wave {
-  -webkit-animation-name: wave-animation;
   animation-name: wave-animation;
-  -webkit-animation-duration: 2.5s;
   animation-duration: 2.5s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
-}
-
-@-webkit-keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(14deg);
-  }
-
-  20% {
-    transform: rotate(-8deg);
-  }
-
-  30% {
-    transform: rotate(14deg);
-  }
-
-  40% {
-    transform: rotate(-4deg);
-  }
-
-  50% {
-    transform: rotate(10deg);
-  }
-
-  60% {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(0deg);
-  }
 }
 
 @keyframes wave-animation {
@@ -202,35 +165,7 @@ a:hover {
 /* In the mean time using styles that will be easy to transition (such as opacity vs color) */
 
 /* @media (prefers-color-theme: dark) {
-  .body {
-    --bg: #1e1e1e;
-  }
-  .header{
-    --h1: #fff;
-  }
-  
-.subheader {
-  --h2: #606060;
-}
-
-.footer {
-  --footer: #fff;
-}
   }
 
   @media (prefers-color-theme: light) {
-    .body {
-      --bg: #fff;
-    }
-    .header{
-      --h1: #1e1e1e;
-    }
-    
-  .subheader {
-    --h2: #606060;
-  }
-  
-  .footer {
-    --footer: #000000;
-  }
     } */
