@@ -113,10 +113,6 @@ a:hover {
   margin-top: .875rem;
 }
 
-/* Blog Flex */
-.blog-f {
-  flex-direction: column;
-}
 
 /* Blog Container */
 .blog-c {
@@ -125,6 +121,7 @@ a:hover {
   padding: 1.25rem;
   cursor: pointer;
   margin-top: 1.5rem;
+  flex-direction: column;
 
 }
 
